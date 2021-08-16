@@ -1,0 +1,3 @@
+11 Aug 2021 19:22:18,210 INFO  - record inserted
+11 Aug 2021 19:22:19,650 ERROR - Exception occuredjava.sql.SQLIntegrityConstraintViolationException: Duplicate entry '78' for key 'PRIMARY'
+11 Aug 2021 19:48:55,926 ERROR - Exception occuredjava.sql.SQLIntegrityConstraintViolationException: Duplicate entry '78' for key 'PRIMARY'
