@@ -1,0 +1,16 @@
+
+public class ArthematicException {
+	public static void main (String args)
+	{
+		try
+		{
+			int a=10,b=0;
+			int c=a/b;
+			System.out.print(c);
+		}
+		catch(ArthematicException e)
+		{
+			System.out.println("Exception Occured");
+		}
+}
+}
