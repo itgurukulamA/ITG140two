@@ -1,5 +1,6 @@
 package com.example.mypackage.mypack;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -21,5 +22,7 @@ public int insert(Itg140 it) {
 	
 	String sql = "insert into itg140 values(?,?,?,?,?)";
 	return jdbctemplate.update (sql, id, name, email, age, phone);
-}
-}
+	
+   }
+
+ }
